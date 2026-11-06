@@ -1,6 +1,6 @@
-# Habitflow
+# Flowhy
 
-A mobile-first, installable habit tracker built with React and Vite. Track daily habits, see your streaks, and customize the accent color and dark appearance. Habit data and preferences are saved locally in your browser.
+Flowhy is a mobile-first, installable wellness habit tracker. Check in on gentle daily habits, build consistency over time, and see your flower respond to your recent wellness score. Personalize the accent color and switch to the evening appearance in settings.
 
 ## Run locally
 
@@ -9,17 +9,17 @@ npm install
 npm run dev
 ```
 
-## Build for publishing
+## Build and preview
 
 ```bash
 npm run build
 npm run preview
 ```
 
-The production site is written to `dist/`. Deploy it to any static hosting provider (for example, GitHub Pages, Netlify, or Vercel). The app includes a web app manifest and service worker so it can be installed from a supported mobile browser. HTTPS is required for installation and offline support outside localhost.
+The production site is written to `dist/`. Deploy it to static hosting (such as Vercel, Netlify, or GitHub Pages) to use it as an installable mobile web app. HTTPS is required for installation and offline support outside localhost.
 
-On iPhone/iPad, open the deployed site in Safari and use **Share → Add to Home Screen**. On Android, use the browser's **Install app** prompt/menu.
+On iPhone/iPad, visit the deployed site in Safari and choose **Share → Add to Home Screen**. On Android, use the browser's **Install app** prompt or menu.
 
-## Data and privacy
+## Wellness score
 
-Habits, completion history, and appearance settings stay in that browser's local storage. There is no account or cloud synchronization in this starter app. Clearing browser data removes the saved habits.
+The flower reflects a seven-day habit-completion score, with a small boost for today's check-ins. It is a motivational visual, not a medical assessment. Habits and preferences are stored locally in the browser; this starter app has no user accounts or cloud sync.
